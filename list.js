@@ -21,6 +21,6 @@ const addData = () => {
 }
 
 module.exports = addData;
+let btn =document.getElementById("add");
 
-// button.addEventListener('click', addData);
-
+btn.addEventListener('click', addData);
